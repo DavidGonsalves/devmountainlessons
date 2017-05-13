@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.masterheader {
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    background: transparent;
+    z-index: 999;
+    padding: 30px 0;
+}
+
+.header-links:hover {
+    border-bottom: 10px #BDD436;
+
+}
+
+.headerimage {
+   background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") no-repeat center center;
+   background-size: cover;
+   
+}
+
+.header-links {
+    margin: 0 20px 0 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #F0F0F0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    float: right;
+}
+
+.headertextbox {
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12vh 0 3vh 0;
+}
+
+em {
+    color: #ff803a;
+    font-style: normal;
+}
+
+i {
+    color: #bdd436;
+    font-style: normal;
+}
+
+.yourdigital {
+    text-align: left;
+    margin: 0 0 -50px 3em;
+    font-size: 22px;
+}
+
+.workshop {
+    font-size: 155px;
+    font-weight: 300;
+    margin: 0 0;
+    text-align: center;
+}
+
+.sub {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin: 0 20% 0 20%;
+    position: relative;
+    letter-spacing: .5px;
+}
+
+.sub:before, .sub:after {
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    left: -18%;
+    top: 5px;
+}
+
+.sub:after {
+    left: auto;
+    right: -18%;
+}
+
+.blm {
+    margin: 40px 0;
+    background-color: #bdd436;
+    border: 2px solid #bdd436; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 11px 100px;
+    border-radius: 25px;
+}
+
+.mainbox1{
+    display: flex;
+    flex-direction: column;
+}

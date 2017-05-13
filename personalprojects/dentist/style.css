@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.titletext {
+    
+}
+
+.masterheader {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.headerimage {
+   background: url("https://images.unsplash.com/photo-1486049252259-45184399c5b2?dpr=2&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb&amp;crop=&amp;bg=") no-repeat center center;
+   background-size: cover;
+}
+
+.header-links {
+    margin: 2vh 5vh 0 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    float: right;
+}
+
+.header-links:hover {
+    text-decoration: underline;
+}
+
+.headertextbox {
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12vh 0 3vh 0;
+}
+
+em {
+    color: #757575;
+    font-style: normal;
+}
+
+.findyour {
+    text-align: left;
+    margin: 0 0 -20px 3em;
+    font-size: 22px;
+}
+
+.workshop {
+    font-size: 155px;
+    font-weight: 300;
+    margin: 0 0;
+    text-align: center;
+}
+
+.sub {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin: 0 20% 0 20%;
+    position: relative;
+    letter-spacing: .5px;
+}
+
+.sub:before, .sub:after {
+    content: " ";
+    display: block;
+    background: #000;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    left: -18%;
+    top: 5px;
+}
+
+.sub:after {
+    left: auto;
+    right: -18%;
+}
+
+.blm {
+    margin: 40px 0;
+    background-color: #4f4f4d;
+    border: 2px solid #4f4f4d; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 11px 100px;
+    border-radius: 25px;
+}
+
+.mainbox1{
+    display: flex;
+    flex-direction: column;
+}

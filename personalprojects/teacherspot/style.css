@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.titletext {
+    
+}
+
+.masterheader {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.headerimage {
+   background: url("https://images.unsplash.com/photo-1455885661740-29cbf08a42fa?dpr=2&auto=compress,format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center;
+   background-size: cover;
+}
+
+.header-links {
+    margin: 2vh 5vh 0 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    float: right;
+}
+
+.header-links:hover {
+    text-decoration: underline;
+}
+
+.headertextbox {
+    width: 80%;
+    font-family: 'Inknut Antiqua', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12vh 0 3vh 0;
+}
+
+.findyour {
+    text-align: center;
+    margin: 0 2em -110px 3em;
+    font-size: 22px;
+}
+
+.workshop {
+    font-size: 155px;
+    font-weight: 300;
+    margin: 0 0;
+    text-align: center;
+}
+
+.sub {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin: 0 20% 0 20%;
+    position: relative;
+    letter-spacing: .5px;
+}
+
+.sub:before, .sub:after {
+    content: " ";
+    display: block;
+    background: #fff;
+    height: 9px;
+    width: 20%;
+    position: absolute;
+    left: -20%;
+    top: 5px;
+}
+
+.sub:after {
+    left: auto;
+    right: -20%;
+}
+
+.blm {
+    margin: 40px 0;
+    background-color: #4f4f4d;
+    border: 2px solid #4f4f4d; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 11px 100px;
+    border-radius: 25px;
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+.mainbox1{
+    display: flex;
+    flex-direction: column;
+}
