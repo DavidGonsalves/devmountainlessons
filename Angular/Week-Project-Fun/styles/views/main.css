@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+a:visited {
+    color: #fff;
+}
+
+
+.home-page-top-container {
+    width: 100%;
+    height: 35vh;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/8/89/View_of_Lake_Champlain_and_Vermont_from_Poke-O-Moonshine_Mountain_fire_tower.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: 50% 30%;
+     
+}
+
+header {
+    height: 10vh;
+
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*.navBar span {
+    margin: 0 50px;
+}*/
+
+#navBarV {
+    color: #fff;
+    font-size: 70px;
+}
+
+.navBar > li {
+    display: block;
+    flex: 1;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 120px;
+}
+
+#navU:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.pictureCards {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 0 20px;
+    
+}
+
+.homeCard1 {
+    flex:1;
+    justify-content: space-between;
+    height: 50vh;
+    width: 20%;
+    background: url('http://northcountry.jacksonwhelan.netdna-cdn.com/wp-content/uploads/2013/05/IMG_0636.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 20px;
+   }
+
+.homeCard2 {
+    flex:1;
+    justify-content: space-between;
+    height: 50vh;
+    width: 20%;
+    background: url('http://innsatequinox.com/wp-content/uploads/2015/08/summer-activties.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 20px;
+}
+
+.homeCard3 {
+    flex:1;
+    justify-content: space-between;
+    height: 50vh;
+    width: 20%;
+    background: url('http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1475275567/mad-river-glen-vermont-VTSNOW1216.jpg?itok=bAlzoKu2') no-repeat center center;
+    background-size: cover;
+    margin: 20px;
+}
+
+.homeCard4 {
+    flex:1;
+    justify-content: space-between;
+    height: 50vh;
+    width: 20%;
+    background: url('https://lightcentric.files.wordpress.com/2012/04/burton-hill-road-barton-vermont-100320100021_13x19.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 20px;
+}
+
+.infoTextContanier {
+    float: right;
+    width: 60%;
+    height: 50vh;
+    margin: 50px 100px 0 0;
+
+}
+
+.informationalText {
+    font-family: 'Spectral', serif;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+.infoTextContanierLeft {
+    float: left;
+    width: 60%;
+    height: 50vh;
+    margin: 50px 0 0 100px;
+
+}
+
+.informationalText {
+    font-family: 'Spectral', serif;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+
